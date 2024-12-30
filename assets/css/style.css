@@ -98,8 +98,8 @@ header {
 #banner h3 .phone {
     color: #f5f5f5;
 }
-#banner .buttom {
-    display: block;
+.buttom {
+    display: inline-block;
     background-color: #b28756;
     color: #f5f5f5;
     padding: 10px 20px;
@@ -155,12 +155,43 @@ header {
 .default.light {
     background-color: #f5f5f5;
 }
-.default.light .section-title {
+.default.light .section-title,
+.default.light .section-body {
     color: #000;
 }
 .default.dark {
     background-color: #000;
 }
-.default.dark .section-title {
+.default.dark .section-title,
+.default.dark .section-body {
     color: #fff;
+}
+
+
+
+
+
+
+
+
+/*css of specific areas*/
+.section-about-us {
+    display: flex;
+}
+.about-us--left {
+    flex: 1;
+}
+.about-us--left p {
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.about-us--right {
+    width: 500px;
+    text-align: center;
+}
+.about-us--right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }
