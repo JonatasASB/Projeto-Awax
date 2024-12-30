@@ -1,5 +1,5 @@
 body, html {
-    overflow-x: hidden;
+    overflow-x: hidden ;
 }
 * {
     list-style: none;
@@ -246,4 +246,47 @@ header {
 }
 .section-projects--filters li:first-child {
     border-left: none;
+}
+.section-projects--photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    max-width: 1140px;
+    margin: 20px 0 0 0;
+    
+}
+.section-projects--photo {
+    width: 280px;
+} 
+.section-project--photo-area {
+    width: 260px;
+    margin: 10px;
+    height: 160px;
+}
+.section-project--photo-area img {
+    width: inherit;
+    height: inherit;
+}
+.section-project--photo-info {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #f5f5f5;
+    
+}
+.section-project--photo-info h5 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section-project--photo-area:hover .section-project--photo-info {
+    display: flex;
+    cursor: pointer;
 }
