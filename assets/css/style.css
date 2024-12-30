@@ -1,5 +1,5 @@
 body, html {
-    
+    overflow-x: hidden;
 }
 * {
     list-style: none;
@@ -130,4 +130,37 @@ header {
 }
 #banner .pointer.active{
     background-color: #b28756;
+}
+.default {
+    padding: 50px 0;
+}
+.default .section-title,
+.default .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section-title {
+    font-size: 20px;
+}
+.default .section-desc {
+    font-size: 12px;
+    color: #bbb;
+    margin: 10px 0 40px 0;
+}
+.default .section-body {
+    max-width: 1140px;
+    margin: auto;
+}
+.default.light {
+    background-color: #f5f5f5;
+}
+.default.light .section-title {
+    color: #000;
+}
+.default.dark {
+    background-color: #000;
+}
+.default.dark .section-title {
+    color: #fff;
 }
