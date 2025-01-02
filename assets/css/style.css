@@ -575,3 +575,42 @@ header {
 .section-body.section-premium .pointer.active{
     background-color: #b28756;
 }
+.section-facts {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.section-facts--work {
+    flex: 1;   
+}
+.number-facts {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: #b28756;
+    margin: 10px 0
+}
+.border-facts {
+    width: 20px;
+    height: 4px;
+    background-color: #555;
+    margin: auto;
+}
+.title-facts {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+}
+.sub-facts {
+    font-size: 15px;
+    color: #555;
+    line-height: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+.margin-top--extra {
+    padding-top: 24px;
+}
