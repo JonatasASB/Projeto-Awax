@@ -668,3 +668,54 @@ header {
 .midia-social .share-ggp {
     background-color: #ED3D3F;
 }
+.default.light.white.contact {
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+.container-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55vw;
+}
+.section-name-email {
+    display: flex;
+}
+.section-contact--name,
+.section-contact--email {
+    text-transform: uppercase;
+    border-bottom: 2px solid #999;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #999;
+    padding-bottom: 15px;
+    flex: 1;
+}
+.section-contact--email {
+    margin-right: 0px;
+}
+.section-contact-subject {
+    text-transform: uppercase;
+    border-bottom: 2px solid #999;
+    font-size: 18px;
+    margin-top: 40px;
+    color: #999;
+    padding-bottom: 15px;
+}
+.section-contact--message {
+    text-transform: uppercase;
+    border-bottom: 2px solid #999;
+    font-size: 18px;
+    margin: 150px 0 50px 0;
+    color: #999;
+    
+}
+.section-contact--message textarea {
+    position: absolute;
+    margin-top: -31px;
+    height: 20px;
+    width: 55vw;
+    resize:horizontal;
+    overflow:hidden;
+}
