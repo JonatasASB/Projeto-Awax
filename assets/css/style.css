@@ -378,4 +378,48 @@ header {
 .section-team--social a:hover {
     background-color: #b28756;
 }
-    
+.section-body.clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.color-black {
+    color: #000;
+    margin-bottom: 20px;
+    font-size:14px
+}
+.fa-solid, .fas {
+    font-size: 50px;
+}
+.section-client-review {
+    font-size: 14px;
+    width: 560px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.bold {
+    font-weight: 800;
+}
+.clients .sliders-pointers {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.clients .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.clients .pointer.active{
+    background-color: #b28756;
+}
