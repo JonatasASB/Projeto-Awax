@@ -437,7 +437,6 @@ header {
 }
 .deafult.light.border {
     border-bottom: 1px solid  #ddd;
-   
 }
 .container-price {
     display: flex;
@@ -610,7 +609,62 @@ header {
     margin: auto;
     text-align: center;
 }
-
 .margin-top--extra {
     padding-top: 24px;
+}
+.default.light.min-pad {
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+.container-share {
+    display: flex;
+    justify-content: center;
+}
+.share {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.share img {
+    margin: 0 20px;
+}
+.section-inf--share {
+    color: #999;
+    font-weight: 600;
+}
+.midia-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midia-social a {
+    margin-left: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 70%;
+}
+.midia-social span {
+    color: #555;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.midia-social .share-fb {
+    background-color: #336296;
+}
+.midia-social .share-lk{
+    background-color: #1C7AAC;
+}
+.midia-social .share-pr {
+    background-color: #B22228;
+}
+.midia-social .share-tt {
+    background-color: #39C3F2;
+}
+.midia-social .share-ggp {
+    background-color: #ED3D3F;
 }
