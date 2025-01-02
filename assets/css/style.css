@@ -389,12 +389,13 @@ header {
     margin-bottom: 20px;
     font-size:14px
 }
-.fa-solid, .fas {
-    font-size: 50px;
+.clients img {
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 .section-client-review {
     font-size: 14px;
-    width: 560px;
+    width: 900px;
     text-align: center;
     color: #555;
     margin-bottom: 20px;
@@ -422,4 +423,14 @@ header {
 }
 .clients .pointer.active{
     background-color: #b28756;
+}
+.default.light.white {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.container.section-image img {
+    margin-right: 60px;
 }
