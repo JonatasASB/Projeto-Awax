@@ -887,7 +887,7 @@ header {
     }
     .container.section-image img{
         margin: 60px;
-        width: 160px;
+        width:120px;
     }
     .section-body.section-premium {
         flex-direction: column;
@@ -1020,7 +1020,7 @@ header {
     }
     .container.section-image img{
         margin: 60px;
-        width: 160px;
+        width: 100px
     }
     .section-body.section-premium {
         flex-direction: column;
