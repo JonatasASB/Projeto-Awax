@@ -940,7 +940,7 @@ header {
     }
     .menu-opener {
         display: block;
-        width: 45px;
+        width: 35px;
         margin: 0 30px 0 0;
     }
     nav {
@@ -983,7 +983,7 @@ header {
         margin: 10px 25px;
     }
     .about-us--right img {
-        width: 360px;
+        width: 320px;
     }
     .section-services {
         flex-wrap: wrap;
@@ -991,6 +991,12 @@ header {
     .section-service {
         min-width: 100vw;
         margin: 15px 0;
+    }
+    .section-service {
+        border: 0;
+    }
+    .section-service {
+        border-bottom: 1px solid #222;
     }
     .section-service:first-child {
         border-left: 0;
@@ -1020,7 +1026,8 @@ header {
     }
     .container.section-image img{
         margin: 60px;
-        width: 100px
+        width: 80px;
+        height: auto;
     }
     .section-body.section-premium {
         flex-direction: column;
@@ -1076,6 +1083,7 @@ header {
         width: auto;
     }
     .section-map--info {
+        padding: 5px;
         width: auto;
     }
     .footer-area {
@@ -1085,7 +1093,7 @@ header {
     .footer-area--midia,
     .footer-area--paragraph,
     .footer-area--email {
-        width: 360px;
+        width: 320px;
         height: 220px;
         margin: 20px;
         flex:auto
